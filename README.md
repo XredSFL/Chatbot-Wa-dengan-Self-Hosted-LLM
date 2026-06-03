@@ -14,7 +14,7 @@ agar tidak terkena CORS. Ubah `target` proxy jika host/port berbeda.
 
 Alur pakai (dengan backend lokal):
 1. Jalankan backend: `cd backend && npm install && npm start` → salin **API Key** dari log (format `owa_…`).
-2. Jalankan frontend: `npm run dev`, isi API Key.
+2. Jalankan frontend: `npm run dev`, isi API Key. di root directory
 3. **Buat + QR** session baru → scan QR yang muncul dengan WhatsApp → tunggu status `CONNECTED`.
 4. Klik **Pakai** pada session untuk mengisi Session ID, lalu kirim pesan dari form di sebelahnya.
 
