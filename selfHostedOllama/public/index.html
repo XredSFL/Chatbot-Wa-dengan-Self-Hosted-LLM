@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-Hosted AI Chat</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>🤖 Self-Hosted AI Chat</h1>
+        <button id="reset" type="button" title="Mulai percakapan baru">Reset</button>
+      </header>
+
+      <div id="banner" class="banner" hidden></div>
+
+      <main id="log" class="log" aria-live="polite"></main>
+
+      <form id="form" class="composer" autocomplete="off">
+        <textarea
+          id="input"
+          rows="1"
+          placeholder="Tulis pesan… (Enter kirim, Shift+Enter baris baru)"
+        ></textarea>
+        <button id="send" type="submit">Kirim</button>
+      </form>
+    </div>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

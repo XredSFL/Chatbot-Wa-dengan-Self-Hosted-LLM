@@ -1,0 +1,13 @@
+{
+  "name": "selfhosted-ollama-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted AI chat (Ollama) dengan streaming token, tanpa dependency.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
